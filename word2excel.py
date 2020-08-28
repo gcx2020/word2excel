@@ -51,7 +51,7 @@ def addTableToSheet(table, sheet, client_name = "N/A", row_offset = 0):
           cell_text = cell.text
           # In the "Comments" cell, replace line break with a comma
           if j == 3:
-            cell_text = cell_text.replace('\n', ', ')
+            cell_text = cell_text.replace('\n', '; ')
 
           sheet.write(i + row_offset, j + col_offset, cell_text)
 

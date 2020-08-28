@@ -7,7 +7,10 @@ If you download the ZIP file and it only contains README, Requirements and word2
 
 Preparation:
 1. Be in Ubuntu and have Python3
-2. Terminal should be in word2excel/
+2. Install python-venv package
+    $ sudo apt install python3-venv
+3. Create virtual environment (requires venv)
+    $ python3 -m venv word2excel
 
 To Activate virtual environment (requires venv):
 $ source word2excel/bin/activate
