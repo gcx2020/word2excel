@@ -1,4 +1,5 @@
 file: word2excel/ReadMe.txt
+tutorial: https://youtu.be/oAnuf-msBEw
 NOTE: This script and whole package is WIP
 
 
